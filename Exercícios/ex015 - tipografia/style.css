@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    /* ------------ USAR PX e EM --------------
+    Medidas absolutas:
+    cm, mm, in, px, pt, pc.
+    in = polegada
+    pt = ponto
+    pc = paica
+
+    Medidas relativas:
+    em, ex, rem, vw, vh, %
+    em = altura M
+    ex = altura x
+    ------------- 16px = 1em ---------------- */
+
+    font-weight: normal;
+    /* lighter  normal  bold  bolder */
+    font-style: normal;
+    /* italic  normal */
+    text-decoration: normal;
+    /* underline */
+
+/*--------------------------------------------*/
+    /* weight - width - height */
+    /* peso   - largura - altura */
+/*--------------------------------------------*/
+background-color: rgb(245, 255, 255);
+}
+
+h1 {
+    font: italic bolder 2em arial, sans-serif;
+    
+    /*
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+    <------------------------------------------>
+    --- shorthand font ---
+    font-style -> font-weight -> font-size -> font-family 
+    */
+}
+
+h2 {
+    font: bold 1.6em arial, sans-serif;
+}
+
+p {
+    font: lighter 1.15em arial, sans-serif;
+}

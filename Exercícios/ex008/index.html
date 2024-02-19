@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Mídias em HTML</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+   <h1>Imagem dinâmica</h1> 
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt velit officia recusandae aspernatur tenetur eaque atque! Veniam nesciunt quia commodi ea perferendis aliquid iusto numquam nihil, facilis eius quo recusandae?</p>
+
+   <picture>
+    <source media="(max-width: 600px)" srcset="Imagens/estudo(400).jpg" type="image/jpg">
+    <source media="(max-width: 1200px)" srcset="Imagens/estudo(600).jpg" type="image/jpg">
+    <img src="Imagens/estudo(1200).jpg" alt="Imagem estudo">
+   </picture>
+<hr>
+   <h1>Reproduzindo áudio</h1>
+   <p>Quero reproduzir uma música legal em HTML</p>
+   <!--MP3(/mpeg) WAV(evitar) OGG-->
+   <audio controls autoplay>
+    <source src="BossaSonsa.mp3" type="audio/mpeg">
+    <source src="BossaSonsa.mp3" type="audio/ogg">
+    <source src="BossaSonsa.mp3" type="audio/wav">
+    <p>Infelizmente o seu navegador não consegue reproduzir o áudio. <a href="BossaSonsa.mp3" target="_blank" download="BossaSonsa.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
+<hr>
+   <h1>Vídeos em HTML</h1>
+   <h2>Inserindo vídeos hospedados localmente</h2>
+   <p>Este vídeo está hospedado no meu próprio servidor</p>
+   <video controls loop width="750" poster="Imagens/parque-nacional-banff-canada.jpg">
+    <source src="Mídia/Pexels-Ahmet-Kurt (720p).mp4" type="video/mp4">
+    <p>Infelizmente o seu navegador não consegue reproduzir o vídeo. <a href="Mídia/Pexels-Ahmet-Kurt (720p).mp4" target="_blank">Clique aqui para baixar o arquivo MP4</a></p>
+   </video>
+   <h2>Inserindo vídeos hospedados externamente</h2>
+   <p>Só copiar o código direto do youtube, 10x mais fácil e ainda não consome dados do meu Site.</p>
+   <iframe width="750" height="430" src="https://www.youtube.com/embed/l-iHDj3EwdI?si=cQib-1m8IKRuqb58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <hr>
+   <p>Infelizmente o seu navegador não consegue reproduzir o áudio. <a href="BossaSonsa.mp3" target="_blank">Clique aqui para baixar o arquivo MP3</a></p>
+   <p>Infelizmente o seu navegador não consegue reproduzir o vídeo. <a href="Mídia/Pexels-Ahmet-Kurt (720p).mp4" target="_blank">Clique aqui para baixar o arquivo MP4</a></p>
+</body>
+</html>

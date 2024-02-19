@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(-45deg, #011af0 5%, #2131c5 10%, #343e9b, #383e70, #2e3143);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    background-image: linear-gradient(to right, #383e70, #2e3143, #2b2b33);
+    color: yellow;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    background-image: linear-gradient(to right, #383e70, #2e3143);
+    text-align: justify;
+    color: yellow;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+a {
+    font-size: 25px;
+    color: rgb(218, 218, 0);
+}
